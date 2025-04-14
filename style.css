@@ -55,7 +55,7 @@ body::-webkit-scrollbar {
 	text-decoration: none;
 	font-family: "Poppins", system-ui;
 }
-
+/* hero section  */
 #hero {
 	width: 100%;
 	height: 60%;
@@ -73,6 +73,8 @@ body::-webkit-scrollbar {
 	justify-content: space-between;
 	gap: 2vw;
 }
+
+/* hero left */
 .hero-content .hero-left {
 	width: 50%;
 	height: 100%;
@@ -110,6 +112,7 @@ body::-webkit-scrollbar {
 	border-radius: 5px;
 	cursor: pointer;
 }
+/* hero right */
 .hero-content .hero-right {
 	width: 50%;
 	height: 100%;
@@ -117,10 +120,85 @@ body::-webkit-scrollbar {
 	justify-content: center;
 	align-items: center;
 }
+
 .hero-right .hero-img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	border-radius: 10px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* info section */
+#info-section {
+	width: 100%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: var(--color2);
+}
+#info-section .info-title {
+	font-size: 2vw;
+	color: var(--primary-color);
+	font-family: var(--font-Poppins);
+	text-align: center;
+	margin-top: 3vw;
+	position: relative;
+}
+.info-title::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: var(--primary-color);
+	display: block;
+	margin-top: 1vw;
+}
+#info-section .info-content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: center;
+	align-items: center;
+	gap: 2vw;
+	/* padding: 1vw; */
+}
+.info-content .info-card {
+	width: 200px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1vw;
+	border-radius: 10px;
+}
+.info-card .img-box {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+	overflow: hidden;
+	border: 5px solid var(--color3);
+}
+.img-box .info-icon {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+}
+.info-card .info-text {
+	width: 100%;
+	font-size: 0.9vw;
+	font-weight: bolder;
+	color: var(--primary-color);
+	font-family: var(--font-Poppins);
+	text-align: center;
 }
