@@ -286,3 +286,36 @@ body::-webkit-scrollbar {
 	justify-content: center;
 	align-items: center;
 }
+
+/* footer section */
+#footer {
+	width: 100%;
+	height: 10%;
+	display: flex;
+	padding: 2vw;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--color3);
+}
+#footer .footer-title {
+	font-size: 1.5vw;
+	color: var(--primary-color);
+	font-family: var(--font-Poppins);
+}
+#footer .footer-text {
+	font-size: 1vw;
+	color: var(--primary-color);
+	font-family: var(--font-Poppins);
+}
+#footer a {
+	text-decoration: none;
+}
+#footer .git {
+	font-size: 2vw;
+	color: var(--primary-color);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+#footer .git:hover {
+	color: rgb(0, 0, 0);
+}
