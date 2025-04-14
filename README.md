@@ -1,2 +1,2 @@
 # techspark
-A clean, responsive landing page built with HTML and CSS as part of The Odin Project. It features a hero section, features grid, testimonial, and call-to-action. Focused on practicing layout, Flexbox, and turning design mockups into real web pages.
+A clean, landing page built with HTML and CSS as part of The Odin Project. It features a hero section, features grid, testimonial, and call-to-action. Focused on practicing layout, Flexbox, and turning design mockups into real web pages.
