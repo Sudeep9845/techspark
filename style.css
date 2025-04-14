@@ -202,3 +202,35 @@ body::-webkit-scrollbar {
 	font-family: var(--font-Poppins);
 	text-align: center;
 }
+
+/* quote section */
+#quote-section {
+	width: 100%;
+	height: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--color3);
+}
+.quote-content {
+	width: 80%;
+	height: 100%;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.quote-content .quote-text {
+	font-size: clamp(1.5vw, 2.5vw, 3vw);
+	color: var(--primary-color);
+	font-family: var(--font-Poppins);
+	font-style: italic;
+}
+.quote-content .quote-author {
+	font-size: clamp(1vw, 1.5vw, 2vw);
+	align-self: flex-end;
+	color: var(--primary-color);
+	font-family: var(--font-Poppins);
+	margin-top: 1vw;
+}
